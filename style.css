@@ -130,6 +130,7 @@
 }
 
 .child{
+    background-color: white;
     border-radius:8px;
 }
 .btnn{
@@ -154,4 +155,98 @@
     border-radius:50px;
     margin-left: 30px;
     
+}
+.bold{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    margin-left: 30px;
+}
+.pra{
+    font-size: 16px;
+    margin-left: 30px;
+}
+.img{
+    border-radius: 8px;
+}
+.button{
+    background-color:#95B226 ;
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    margin-left:38px ;
+   
+}
+.tag{
+    font-size: 16px;
+    margin-left: 38px;
+}
+.button-2{
+    background-color:#5D58F0 ;
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    margin-left: 38px;
+}
+.tag-2{
+    font-size: 16px;
+    margin-left: 38px;
+}
+.button-3{
+    background-color:#95B226 ;
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    margin-left: 38px;
+}
+.tag-3{
+    font-size: 16px;
+    margin-left: 38px;
+}
+.button-4{
+    background-color: #95B226;
+    height: 30px;
+    border: 0;
+    border-radius: 50px;
+    color: white;
+    margin-left: 38px;
+}
+.tag-4{
+    font-size: 16px;
+    margin-left: 38px;
+}
+
+.last{
+    background-color:#01ACFD ;
+    margin-top: 30px;
+    height: 400px;
+}
+.footer{
+    max-width: 1440px;
+    margin: 0 310px;
+    justify-content: space-between;
+}
+.logo{
+    background-color: white;
+    height: 80px;
+    margin-top: 20px;
+}
+.sami-bold{
+    font-weight: 700;
+    font-size: 40px;
+}
+.color-11{
+    color:#FFFFFF ;
+    gap: 10px;
+}
+.color-12{
+    color: #FFFFFF;
+}
+.color-13{
+    color: #FFFFFF;
+}
+.color-14{
+    color: #FFFFFF;
 }
