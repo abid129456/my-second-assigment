@@ -38,8 +38,6 @@ ul li > a{
     text-decoration: none;
 }
 
-
-
 .nav-button{
     border: none;
     background-color: rgb(239, 112, 8);
@@ -117,11 +115,6 @@ ul li > a{
     margin-left: 50px;
 }
 
-
-
-
-  /* nav section */
-
   .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -146,11 +139,6 @@ ul li > a{
     gap: 20px;
   }
 
-
-
-
-  /* main fast section-1 */
-
 h1{
     font-size: 54px;
 }
@@ -172,9 +160,6 @@ h1{
     height: 331px;
 }
 
-
-
-/* section 2 */
 
 .section-2{
     max-width: 100%;
@@ -232,7 +217,6 @@ h1{
 
 }
 
-/* side bar section */
 .side{
     display: flex;
     gap: 30px;
@@ -254,7 +238,6 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-/* another image section */
 .section-3{
     max-width: 100%;
     margin-top: -50px;
@@ -262,8 +245,6 @@ h1{
     background-repeat: no-repeat;
     height: 950px;
 }
-
-
 .story{
     max-width: 1140px;
     margin: auto;
@@ -280,9 +261,6 @@ h1{
     max-width: 1140px;
     gap: 40px;
 }
-
-
-
 
 .single-image{
     height: 350px;
@@ -301,8 +279,6 @@ h1{
     width: 297px;
     border-radius: 10px 10px 0 0;
 }
-
-
 
 .single-image-description{
     height: 206px;
@@ -365,8 +341,6 @@ h1{
     text-align: center;
 }
 
-/* footer-section */
-
 footer{
     background-color: rgb(18, 164, 232);
 
@@ -417,8 +391,6 @@ ul > li{
     border-radius: 10px;
     margin-bottom: 50px;
 }
-
-
 .hr-1{
     width: 25px;
     height: 3px;
@@ -431,8 +403,6 @@ ul > li{
 }
 
 
-
-/* responsive side */
 
 @media screen and (max-width: 576px) {
 
@@ -447,16 +417,14 @@ ul > li{
         padding: 20px;
     }
     
-
-
     body {
         font-size: 14px;
         max-width: 500px;
     }
-    .nav-container{
+    .nav-bar{
         display: none;
     }
-    .h1-container{
+    .h1-contant{
         max-width: 350px;
     }
     .child-text{
@@ -465,7 +433,7 @@ ul > li{
         align-items: center;
     }
 
-    .heading-container{
+    .heading{
         display: flex;
         
         flex-direction: column-reverse;
@@ -482,25 +450,21 @@ ul > li{
     h1{
         font-size: 32px;
     }
-    .group-card{
+    .card{
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 350px;
         margin: auto;
     }
-
     .web-heading{
         width: 350px;
         text-align: center;
         margin: auto;
-    
     }
-
     .group{
         display: none;
     }
-
     .section-2{
         max-width: 100%;
         margin: auto;
@@ -509,7 +473,6 @@ ul > li{
         background-repeat: repeat-y;
         height: 1400px;
     }
-
     .another-image-1{
         height: 100px;
         width: 180px;
@@ -520,8 +483,6 @@ ul > li{
         width: 180px;
         border-radius: 10px 10px 0 0;
     }
-
-    /* button section */
     .single-image-button-1{
         background-color: rgba(215, 123, 25, 0.923);
         border: none;
@@ -635,7 +596,7 @@ ul > li{
         text-align: center;
     }
 
-    .footer-container{
+    .footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         max-width: 350px;
@@ -656,7 +617,7 @@ ul > li{
         margin-top: -40px;
     }
 
-    .touch-section{
+    .touch{
         width: 200px;
         padding: 20px;
         margin-top: -60px;
