@@ -90,7 +90,7 @@
 # What to Submit
 
 - Your Github Repository . ex.("https://github.com/Repo-name")
-- Your Live Link. ex.(https://user.github.io/Repo-name/)
+- Your Live Link. ex.("https://abid129456.github.io/my-second-assigment/")
 
 ---
 
